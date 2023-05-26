@@ -1,0 +1,24 @@
+.breadcrumb-section {
+  overflow: hidden;
+  margin-bottom: 18px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: var(--space-6);
+  }
+  @include media-breakpoint-up(lg) {
+    margin-bottom: var(--space-7);
+  }
+  @include media-breakpoint-up(xl) {
+    margin-bottom: var(--space-8);
+  }
+  &__block {
+    @include media-breakpoint-down(sm) {
+      margin-right: -20px;
+    }
+    @include media-breakpoint-between(sm, md) {
+      margin-right: calc((100vw - 320px) / 2 * -1);
+    }
+  }
+  .el-scrollbar__bar {
+    display: none !important;
+  }
+}

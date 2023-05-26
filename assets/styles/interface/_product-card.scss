@@ -1,0 +1,31 @@
+.product-card {
+  &__images {
+    .thumb-swiper {
+      .swiper-pagination {
+        display: none;
+      }
+      .swiper-slide {
+        position: relative;
+        &::before {
+          display: block;
+          padding-top: 100%;
+          content: '';
+        }
+        img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          object-position: center;
+        }
+      }
+    }
+    .pagination-swiper {
+      .swiper-wrapper {
+        display: none;
+      }
+    }
+  }
+}

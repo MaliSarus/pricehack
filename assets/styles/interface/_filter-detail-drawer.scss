@@ -1,0 +1,11 @@
+.filter-detail-drawer {
+  &.has-scroll {
+    &:not(.scroll-end) {
+      .el-drawer {
+        &__footer {
+          box-shadow: var(--shadow-m);
+        }
+      }
+    }
+  }
+}

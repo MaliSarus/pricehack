@@ -1,0 +1,15 @@
+.all-filters-drawer {
+  &__selected-filters {
+    .selected-filters {
+      &__list {
+        .closable-tag {
+          &__close {
+            @include media-breakpoint-up(lg) {
+              margin-left: var(--space-3);
+            }
+          }
+        }
+      }
+    }
+  }
+}

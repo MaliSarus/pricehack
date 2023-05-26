@@ -1,0 +1,18 @@
+.auth-section {
+  &__block {
+    .auth-box {
+      .box {
+        &__header {
+          @include media-breakpoint-down(md) {
+            display: none;
+          }
+        }
+        &__body {
+          @include media-breakpoint-down(md) {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
