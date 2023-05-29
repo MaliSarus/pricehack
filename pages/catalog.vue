@@ -64,7 +64,7 @@ const filters = reactive({
               >
                 <div class="catalog-section__categories">
                   <p
-                    class="catalog-section__categories-title color_text-primary text-l-semibold"
+                    class="catalog-section__categories-title color_text-primary text-l-medium"
                   >
                     Категории
                   </p>
@@ -99,7 +99,7 @@ const filters = reactive({
                       <el-collapse-item class="filters__item">
                         <template #title>
                           <div
-                            class="filters__item-title color_text-primary text-m-semibold d-flex align-items-center"
+                            class="filters__item-title color_text-primary text-m-medium d-flex align-items-center"
                           >
                             Цена
                             <div class="filters__item-toggler color_dividers">
@@ -118,7 +118,7 @@ const filters = reactive({
                       <el-collapse-item class="filters__item">
                         <template #title>
                           <div
-                            class="filters__item-title color_text-primary text-m-semibold d-flex align-items-center"
+                            class="filters__item-title color_text-primary text-m-medium d-flex align-items-center"
                           >
                             Рейтинг магазина
                             <div class="filters__item-toggler color_dividers">
@@ -175,7 +175,7 @@ const filters = reactive({
                       <el-collapse-item class="filters__item">
                         <template #title>
                           <div
-                            class="filters__item-title color_text-primary text-m-semibold d-flex align-items-center"
+                            class="filters__item-title color_text-primary text-m-medium d-flex align-items-center"
                           >
                             Коллекция
                             <div class="filters__item-toggler color_dividers">
@@ -214,7 +214,7 @@ const filters = reactive({
                       <el-collapse-item class="filters__item">
                         <template #title>
                           <div
-                            class="filters__item-title color_text-primary text-m-semibold d-flex align-items-center"
+                            class="filters__item-title color_text-primary text-m-medium d-flex align-items-center"
                           >
                             Цвет
                             <div class="filters__item-toggler color_dividers">
@@ -454,7 +454,7 @@ const filters = reactive({
                         <li class="selected-filters__item">
                           <UiClosableTag size="s" type="plain" not-closed>
                             <span
-                              class="text-s-semibold text-m-semibold_lg color_text-primary"
+                              class="text-s-medium text-m-medium_lg color_text-primary"
                             >
                               Сбросить все
                             </span>
@@ -463,7 +463,7 @@ const filters = reactive({
                         <li class="selected-filters__item">
                           <UiClosableTag size="s">
                             Цена:
-                            <span class="text-s-semibold text-m-semibold_lg">
+                            <span class="text-s-medium text-m-medium_lg">
                               от 11 223 до 10 000 000
                             </span>
                           </UiClosableTag>
@@ -471,7 +471,7 @@ const filters = reactive({
                         <li class="selected-filters__item">
                           <UiClosableTag size="s">
                             Ширина:
-                            <span class="text-s-semibold text-m-semibold_lg">
+                            <span class="text-s-medium text-m-medium_lg">
                               от 20 до 770 см
                             </span>
                           </UiClosableTag>
@@ -479,7 +479,7 @@ const filters = reactive({
                         <li class="selected-filters__item">
                           <UiClosableTag size="s">
                             Длина спального места:
-                            <span class="text-s-semibold text-m-semibold_lg">
+                            <span class="text-s-medium text-m-medium_lg">
                               от 20 до 770 см
                             </span>
                           </UiClosableTag>
@@ -487,7 +487,7 @@ const filters = reactive({
                         <li class="selected-filters__item">
                           <UiClosableTag size="s">
                             Цвет:
-                            <span class="text-s-semibold text-m-semibold_lg">
+                            <span class="text-s-medium text-m-medium_lg">
                               Белый
                             </span>
                           </UiClosableTag>
@@ -495,7 +495,7 @@ const filters = reactive({
                         <li class="selected-filters__item">
                           <UiClosableTag size="s">
                             Материал обивки:
-                            <span class="text-s-semibold text-m-semibold_lg">
+                            <span class="text-s-medium text-m-medium_lg">
                               Акрил, Алькантара
                             </span>
                           </UiClosableTag>
@@ -506,7 +506,7 @@ const filters = reactive({
                       <li class="selected-filters__item">
                         <UiClosableTag size="s">
                           Цена:
-                          <span class="text-s-semibold text-m-semibold_lg">
+                          <span class="text-s-medium text-m-medium_lg">
                             от 11 223 до 10 000 000
                           </span>
                         </UiClosableTag>
@@ -514,7 +514,7 @@ const filters = reactive({
                       <li class="selected-filters__item">
                         <UiClosableTag size="s">
                           Ширина:
-                          <span class="text-s-semibold text-m-semibold_lg">
+                          <span class="text-s-medium text-m-medium_lg">
                             от 20 до 770 см
                           </span>
                         </UiClosableTag>
@@ -522,7 +522,7 @@ const filters = reactive({
                       <li class="selected-filters__item">
                         <UiClosableTag size="s">
                           Длина спального места:
-                          <span class="text-s-semibold text-m-semibold_lg">
+                          <span class="text-s-medium text-m-medium_lg">
                             от 20 до 770 см
                           </span>
                         </UiClosableTag>
@@ -530,7 +530,7 @@ const filters = reactive({
                       <li class="selected-filters__item">
                         <UiClosableTag size="s">
                           Цвет:
-                          <span class="text-s-semibold text-m-semibold_lg">
+                          <span class="text-s-medium text-m-medium_lg">
                             Белый
                           </span>
                         </UiClosableTag>
@@ -538,7 +538,7 @@ const filters = reactive({
                       <li class="selected-filters__item">
                         <UiClosableTag size="s">
                           Материал обивки:
-                          <span class="text-s-semibold text-m-semibold_lg">
+                          <span class="text-s-medium text-m-medium_lg">
                             Акрил, Алькантара
                           </span>
                         </UiClosableTag>
@@ -546,7 +546,7 @@ const filters = reactive({
                       <li class="selected-filters__item">
                         <UiClosableTag size="s" type="plain" not-closed>
                           <span
-                            class="text-s-semibold text-m-semibold_lg color_text-primary"
+                            class="text-s-medium text-m-medium_lg color_text-primary"
                           >
                             Сбросить все
                           </span>
@@ -651,14 +651,14 @@ const filters = reactive({
       line-height: var(--text-xxs__line-height);
       margin-left: var(--space-3);
       @include media-breakpoint-up(md) {
-        --el-tag-font-size: var(--text-xs-semibold__font-size);
-        font-weight: var(--text-xs-semibold__font-weight);
-        line-height: var(--text-xs-semibold__line-height);
+        --el-tag-font-size: var(--text-xs-medium__font-size);
+        font-weight: var(--text-xs-medium__font-weight);
+        line-height: var(--text-xs-medium__line-height);
       }
       @include media-breakpoint-up(xl) {
-        --el-tag-font-size: var(--text-s-semibold__font-size);
-        font-weight: var(--text-s-semibold__font-weight);
-        line-height: var(--text-s-semibold__line-height);
+        --el-tag-font-size: var(--text-s-medium__font-size);
+        font-weight: var(--text-s-medium__font-weight);
+        line-height: var(--text-s-medium__line-height);
       }
     }
   }

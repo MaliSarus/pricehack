@@ -132,7 +132,7 @@ const handleClosed = () => {
                       <li class="selected-filters__item d-xl-none">
                         <UiClosableTag size="xs" type="plain" not-closed>
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg color_text-primary"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg color_text-primary"
                           >
                             Сбросить все
                           </span>
@@ -142,7 +142,7 @@ const handleClosed = () => {
                         <UiClosableTag size="xs">
                           Цена:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             от 11 223 до 10 000 000
                           </span>
@@ -152,7 +152,7 @@ const handleClosed = () => {
                         <UiClosableTag size="xs">
                           Ширина:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             от 20 до 770 см
                           </span>
@@ -162,7 +162,7 @@ const handleClosed = () => {
                         <UiClosableTag size="xs">
                           Длина спального места:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             от 20 до 770 см
                           </span>
@@ -172,7 +172,7 @@ const handleClosed = () => {
                         <UiClosableTag size="xs">
                           Цвет:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             Белый
                           </span>
@@ -182,7 +182,7 @@ const handleClosed = () => {
                         <UiClosableTag size="xs">
                           Материал обивки:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             Акрил, Алькантара
                           </span>
@@ -191,7 +191,7 @@ const handleClosed = () => {
                       <li class="selected-filters__item hidden-xl-and-down">
                         <UiClosableTag size="xs" type="plain" not-closed>
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg color_text-primary"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg color_text-primary"
                           >
                             Сбросить все
                           </span>

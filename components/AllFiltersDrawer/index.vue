@@ -109,7 +109,7 @@ const blockValues = [
                       <li class="selected-filters__item d-xl-none">
                         <UiClosableTag size="xs" type="plain" not-closed>
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg color_text-primary"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg color_text-primary"
                           >
                             Сбросить все
                           </span>
@@ -119,7 +119,7 @@ const blockValues = [
                         <UiClosableTag size="xs">
                           Цена:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             от 11 223 до 10 000 000
                           </span>
@@ -129,7 +129,7 @@ const blockValues = [
                         <UiClosableTag size="xs">
                           Ширина:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             от 20 до 770 см
                           </span>
@@ -139,7 +139,7 @@ const blockValues = [
                         <UiClosableTag size="xs">
                           Длина спального места:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             от 20 до 770 см
                           </span>
@@ -149,7 +149,7 @@ const blockValues = [
                         <UiClosableTag size="xs">
                           Цвет:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             Белый
                           </span>
@@ -159,7 +159,7 @@ const blockValues = [
                         <UiClosableTag size="xs">
                           Материал обивки:
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg"
                           >
                             Акрил, Алькантара
                           </span>
@@ -168,7 +168,7 @@ const blockValues = [
                       <li class="selected-filters__item hidden-xl-and-down">
                         <UiClosableTag size="xs" type="plain" not-closed>
                           <span
-                            class="text-xs-semibold text-s-semibold_md text-m-semibold_lg color_text-primary"
+                            class="text-xs-medium text-s-medium_md text-m-medium_lg color_text-primary"
                           >
                             Сбросить все
                           </span>
@@ -196,7 +196,7 @@ const blockValues = [
                       <div class="row">
                         <div class="col-12">
                           <div
-                            class="all-filters-filter__title color_text-primary text-m-semibold text-l-semibold_lg"
+                            class="all-filters-filter__title color_text-primary text-m-medium text-l-medium_lg"
                           >
                             Категории
                           </div>
@@ -336,7 +336,7 @@ const blockValues = [
                         <div class="row">
                           <div class="col-12">
                             <div
-                              class="all-filters-filter__title color_text-primary text-m-semibold text-l-semibold_lg"
+                              class="all-filters-filter__title color_text-primary text-m-medium text-l-medium_lg"
                             >
                               Цена
                             </div>
@@ -358,7 +358,7 @@ const blockValues = [
                         >
                           <template #title>
                             <div
-                              class="all-filters-filter__title color_text-primary text-m-semibold text-l-semibold_lg"
+                              class="all-filters-filter__title color_text-primary text-m-medium text-l-medium_lg"
                             >
                               Цена
                               <div
@@ -390,7 +390,7 @@ const blockValues = [
                         <div class="row">
                           <div class="col-12">
                             <div
-                              class="all-filters-filter__title color_text-primary text-m-semibold text-l-semibold_lg"
+                              class="all-filters-filter__title color_text-primary text-m-medium text-l-medium_lg"
                             >
                               Пружинный блок
                               <button
@@ -423,7 +423,7 @@ const blockValues = [
                         >
                           <template #title>
                             <div
-                              class="all-filters-filter__title color_text-primary text-m-semibold text-l-semibold_lg"
+                              class="all-filters-filter__title color_text-primary text-m-medium text-l-medium_lg"
                             >
                               Пружинный блок
                               <div
