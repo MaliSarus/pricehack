@@ -28,7 +28,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true
   },
-  modules: ['@element-plus/nuxt', '@vueuse/nuxt'],
+  modules: ['@element-plus/nuxt', '@vueuse/nuxt', '@nuxt/image-edge'],
   elementPlus: {
     importStyle: false
   },

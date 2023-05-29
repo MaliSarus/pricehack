@@ -9,6 +9,7 @@ import { Pagination, Controller } from 'swiper';
 import { StarSolidIcon12, ChartIcon16, HeartIcon16 } from 'ui-layer/assets/icons';
 import { ref } from 'vue';
 
+// eslint-disable-next-line vue/no-dupe-keys
 const {
   product = {
     id: undefined,
